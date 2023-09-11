@@ -19,7 +19,7 @@ import { StandaloneComponentComponent } from './components/standalone-component/
 @NgModule({
   declarations: [
     AppComponent,
-    // StandaloneComponentComponent,
+    StandaloneComponentComponent,
     // Tab1Component,
     // Tab2Component,
     Tab3Component,
