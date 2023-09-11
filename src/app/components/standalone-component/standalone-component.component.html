@@ -1,0 +1,11 @@
+<div class="tabSection mt-3" id="tabsection">
+    <div class="tabsContainers" id="tabcontainer">
+        <div (click)="tab1()" [class.provider-tabs-active]="showTab== 1" class="itab provider-tabs"
+            id="account">Tab 1</div>
+        <div (click)="tab2()" [class.provider-tabs-active]="showTab == 2" class="itab provider-tabs" 
+            id="clinical">Tab 2</div>
+        <div (click)="tab3()" [class.provider-tabs-active]="showTab == 3" class="itab provider-tabs"
+            id="clinical">Tab 3</div>
+    </div>
+    
+</div>
